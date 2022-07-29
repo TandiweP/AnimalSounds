@@ -1,11 +1,11 @@
 class Animal {
     constructor (
-        ID,
+        id,
         name,
         sound,
         clicked
     ) {
-        this.ID = ID;
+        this.id = id;
         this.name = name;
         this.sound = sound;
         clicked = clicked;
