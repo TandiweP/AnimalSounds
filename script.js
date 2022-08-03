@@ -14,6 +14,13 @@ const dog = new Animal (
     false,
 );
 
+const horse = new Animal (
+    3,
+    "Horse",
+    "Neigh",
+    false,
+);
+
 const content = `
     <div className = "container-fluid" >
         <h1>Animals:</h1>
@@ -30,10 +37,22 @@ const content = `
         <article>
             <h1>${dog.id}: ${dog.name}</h1>
             <ol>
+
                 <li>Id: ${dog.id}</li>
                 <li>Name: ${dog.name}</li>
                 <li>Sound: ${dog.sound}</li>
                 <li>clicked: ${dog.clicked}</li>
+
+            </ol>
+        </article>
+        <article>
+            <h1>${horse.id}: ${horse.name}</h1>
+            <ol>
+            
+                <li>Id: ${horse.id}</li>
+                <li>Name: ${horse.name}</li>
+                <li>Sound: ${horse.sound}</li>
+                <li>clicked: ${horse.clicked}</li>
 
             </ol>
         </article>
