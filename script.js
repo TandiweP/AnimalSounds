@@ -24,7 +24,7 @@ const horse = new Animal (
 const content = `
     <div className = "container-fluid" >
         <h1>Animals:</h1>
-        <article>
+        <div>
             <h1>${cat.id}: ${cat.name}</h1>
             <ol>
                 <li>Id: ${cat.id}</li>
@@ -33,8 +33,8 @@ const content = `
                 <li>clicked: ${cat.clicked}</li>
 
             </ol>
-        </article>
-        <article>
+        </div>
+        <div>
             <h1>${dog.id}: ${dog.name}</h1>
             <ol>
 
@@ -44,8 +44,8 @@ const content = `
                 <li>clicked: ${dog.clicked}</li>
 
             </ol>
-        </article>
-        <article>
+        </div>
+        <div>
             <h1>${horse.id}: ${horse.name}</h1>
             <ol>
             
@@ -55,7 +55,7 @@ const content = `
                 <li>clicked: ${horse.clicked}</li>
 
             </ol>
-        </article>
+        </div>
     </div>
 `
 
