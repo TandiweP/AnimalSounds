@@ -21,6 +21,13 @@ const horse = new Animal (
     false,
 );
 
+const cow = new Animal (
+    4,
+    "Cow",
+    "Moo",
+    false,
+);
+
 console.log(Animal);
 
 const content = `
