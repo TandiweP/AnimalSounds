@@ -50,3 +50,7 @@ return newArticle;
 
 const main = document.querySelector("main");
 main.append(content(cat));
+main.append(content(dog));
+
+
+//https://stackoverflow.com/questions/63074270/create-a-loop-of-bootstrap-4-card-with-given-array
