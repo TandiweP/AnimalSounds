@@ -30,17 +30,23 @@ const cow = new Animal (
 
 console.log(Animal);
 
-const content = `
+const content = (currentAnimal) => { 
+    const newArticle = document.createElement("article");
+    newArticle.innerHTML = `
 <div class="card text-white bg-primary mb-3" style="width: 18rem;">
     <div class="card-body">
-        <h3 class="card-body">${cat.id}: ${cat.name}:</h3>
+        <h3 class="card-body">${currentAnimal.id}: ${currentAnimal.name}:</h3>
             <ol>
-                <li>Sound: ${cat.sound}</li>
-                <li>clicked: ${cat.clicked}</li>
+                <li>Sound: ${currentAnimal.sound}</li>
+                <li>clicked: ${currentAnimal.clicked}</li>
             </ol>
         <button class="btn-btn-primary">Get Sound</button>
     </div>   
 </div>
-`
+`;
+return newArticle;
+};
 
-document.body.innerHTML = content;
+
+const main = document.querySelector("main");
+main.append(content(cat));
