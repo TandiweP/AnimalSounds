@@ -3,12 +3,14 @@ class Animal {
         id,
         name,
         sound,
-        clicked
+        clicked,
+        image
     ) {
         this.id = id;
         this.name = name;
         this.sound = sound;
-        clicked = clicked;
+        this.clicked = clicked;
+        this.image = image; 
     }
 
     beenClicked (clickStatus) {
