@@ -42,7 +42,7 @@ const content = (currentAnimal) => {
                 <img src= ${currentAnimal.image}> 
                 <h2>${currentAnimal.name}</h2>
                 <h4>Sound: ${currentAnimal.sound}</h4>
-                <h4>isClicked: ${currentAnimal.clicked}</h4>
+                <h4>isClicked : ${currentAnimal.clicked}</h4>
                 <button>Speak</button> 
         </div>
     
