@@ -24,7 +24,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2%;
+  padding: 4%;
 }
 
 img {
@@ -56,11 +56,18 @@ h4 {
 }
 
 button {
-  /* display: block; */
-  border-radius: 5px;
-  height: 2rem;
-  width: 4rem;
-  background-color: rgb(142, 207, 245);
-  opacity: 80%;
-  flex-basis: auto;
+  background-color: rgb(114, 101, 171, 0.8);
+  color: #ffa260;
+  border: 2px solid;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: all 0.25s;
+}
+
+button:hover {
+  border-color: #f1ff5c;
+  background-color: rgb(114, 101, 171);
+  color: #f1ff5c;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.25em);
 }
