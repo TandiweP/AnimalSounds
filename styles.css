@@ -76,3 +76,15 @@ button:hover {
   transform: translateY(-0.25em);
   cursor: pointer;
 }
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 5rem;
+  color: white;
+  letter-spacing: 1rem;
+}
