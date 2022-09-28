@@ -3,9 +3,12 @@ body {
 }
 
 main {
+  height: 80vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 2%;
+  border: solid black;
 }
 /* article {
   display: grid;
@@ -14,8 +17,9 @@ main {
 } */
 .card {
   gap: none;
-  width: 13em;
-  /* height: 20em; */
+  /* width: 13em; */
+  height: 25%;
+  width: auto;
   border: solid 5px gray;
   border-radius: 5px;
   text-align: center;
