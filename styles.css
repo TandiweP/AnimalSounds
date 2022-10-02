@@ -13,18 +13,20 @@ main {
 article {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+
   height: 90%;
   width: 20%;
   justify-content: center;
   align-items: center;
-  /* border: solid rgb(245, 245, 245); */
+  border: solid rgb(245, 245, 245);
 }
 
 .card {
   gap: none;
-  width: 80%;
-  /* border: solid 5px gray; */
+  flex-basis: content;
+  max-height: 90%;
+  /* max-width: 80%; */
+  border: solid 5px gray;
   border-radius: 5px;
   text-align: center;
   background-color: white;
@@ -34,8 +36,8 @@ article {
   align-items: center;
   padding: 4%;
 
-  flex-grow: 1;
-  /* flex-shrink: 1; */
+  /* flex-grow: 1;
+  flex-shrink: 1; */
 }
 
 img {
@@ -91,4 +93,5 @@ nav {
   font-size: 5rem;
   color: white;
   letter-spacing: 1rem;
+  margin-bottom: 5%;
 }
