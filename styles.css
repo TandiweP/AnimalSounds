@@ -23,6 +23,7 @@ article {
 
 .card {
   gap: none;
+  flex-wrap: nowrap;
   flex-basis: content;
   max-height: 90%;
   /* max-width: 80%; */
@@ -62,7 +63,7 @@ h2 {
 h4 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  margin-top: 1%;
+  /* margin-top: 1%; */
 }
 
 button {
