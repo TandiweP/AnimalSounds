@@ -57,13 +57,14 @@ h2 {
   text-transform: uppercase;
   font-weight: 900;
   line-height: 6rem;
-  margin: none;
+  margin: 0;
+  flex-basis: content;
 }
 
 h4 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  /* margin-top: 1%; */
+  margin-top: 1%;
 }
 
 button {
