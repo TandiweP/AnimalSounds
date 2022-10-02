@@ -5,11 +5,11 @@ body {
 main {
   /* height: 50vh; */
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   gap: 2%;
   border: solid black;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
 }
 article {
   display: flex;
