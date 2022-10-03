@@ -7,8 +7,8 @@ main {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  gap: 2%;
-  border: solid black;
+  gap: 1%;
+  /* border: solid black; */
   flex-wrap: wrap;
 }
 article {
@@ -16,10 +16,11 @@ article {
   /* flex-direction: column; */
 
   /* height: 90%; */
-  width: 15%;
+  width: 20%;
   justify-content: center;
   align-items: center;
-  border: solid rgb(245, 245, 245);
+
+  /* border: solid rgb(245, 245, 245); */
 }
 
 .card {
@@ -37,7 +38,7 @@ article {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  /* padding: 4%; */
+  padding: 4%;
 
   /* flex-grow: 1;
   flex-shrink: 1; */
@@ -89,11 +90,41 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  text-align: center;
   align-items: center;
   height: 10vh;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 5rem;
   color: white;
   letter-spacing: 1rem;
+  margin-top: 2%;
   margin-bottom: 5%;
+}
+
+/* Responsive */
+
+@media (max-width: 750px) {
+  nav {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 650px) {
+  nav {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  nav {
+    font-size: 2rem;
+  }
+  main {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  article {
+    width: 80vw;
+  }
 }
