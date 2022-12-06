@@ -16,6 +16,8 @@ class Animal {
     beenClicked (clickStatus) {
         this.clicked = clickStatus;
         
+        
+        
     
         //further define this function to toggle ex) if this.clicked = true: !this.clicked
         // document.getElementById("button").style.color="red";

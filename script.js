@@ -51,6 +51,7 @@ return newArticle;
 };
 
 
+
 const main = document.querySelector("main");
 main.append(content(cat));
 main.append(content(dog));
@@ -59,3 +60,4 @@ main.append(content(cow));
 
 alert("Welcome to the Game!");
 //https://stackoverflow.com/questions/63074270/create-a-loop-of-bootstrap-4-card-with-given-array
+
